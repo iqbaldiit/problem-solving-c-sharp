@@ -156,7 +156,8 @@ using DataStructureAlgorithm.LeetCode;
 /********************Hacker Rank*********************/
 
 //Triplet.Execute();
-BigSum.Execute();
+//BigSum.Execute();
 //DiagonalDifference.ExecuteSum();
+PlusMinus.Execute();
 
 
