@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace DataStructureAlgorithm.Hackerrank
 {
+    /*
+     * https://www.hackerrank.com/challenges/plus-minus/problem?isFullScreen=true
+     */
     public static class PlusMinus
     {
         public static void plusMinus(List<int> arr)
