@@ -158,6 +158,7 @@ using DataStructureAlgorithm.LeetCode;
 //Triplet.Execute();
 //BigSum.Execute();
 //DiagonalDifference.ExecuteSum();
-PlusMinus.Execute();
+//PlusMinus.Execute();
+Staircase.staircase(6);
 
 
