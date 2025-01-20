@@ -159,6 +159,8 @@ using DataStructureAlgorithm.LeetCode;
 //BigSum.Execute();
 //DiagonalDifference.ExecuteSum();
 //PlusMinus.Execute();
-Staircase.staircase(6);
+//Staircase.staircase(6);
+MinMaxSum.Execute();
+
 
 
