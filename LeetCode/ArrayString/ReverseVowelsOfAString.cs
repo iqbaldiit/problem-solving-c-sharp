@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataStructureAlgorithm.LeetCode.ArrayString
 {
-    //Source: https://leetcode.com/problems/reverse-vowels-of-a-string/solutions/6333834/simple-best-solution-with-using-two-poin-0f2k/
+    //Source: https://leetcode.com/problems/reverse-vowels-of-a-string/solutions/6333834/simple-best-solution-with-using-two-pointer/?envType=study-plan-v2&envId=leetcode-75
     /*
         Given a string s, reverse only all the vowels in the string and return it.
 
