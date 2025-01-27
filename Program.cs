@@ -156,7 +156,8 @@ using DataStructureAlgorithm.LeetCode.ArrayString;
 //MergeStringsAlternately.Execute();
 //GreatestCommonDivisorOfStrings.Execute();
 //KidsWithTheGreatestNumberOfCandies.Execute();
-CanPlaceFlowers.Execute();
+//CanPlaceFlowers.Execute();
+ReverseVowelsOfAString.Execute();
 
 
 /********************Hacker Rank*********************/
