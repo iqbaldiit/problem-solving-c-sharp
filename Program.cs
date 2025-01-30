@@ -150,7 +150,7 @@ using DataStructureAlgorithm.LeetCode.ArrayString;
 //SearchingChallange.Execute();
 //ValidParentheses.Execute();
 
-/********************LeetCode Problems***************/
+/********************LeetCode Problems Executions***************/
 
 //MergeSortedArray.ExecuteV1();
 //MergeStringsAlternately.Execute();
@@ -159,7 +159,8 @@ using DataStructureAlgorithm.LeetCode.ArrayString;
 //CanPlaceFlowers.Execute();
 //ReverseVowelsOfAString.Execute();
 //ReverseWordsInString.Execute();
-ProductOfArrayExceptSelf.Execute();
+//ProductOfArrayExceptSelf.Execute();
+IncreasingTripletSubsequence.Execute();
 
 
 /********************Hacker Rank*********************/
