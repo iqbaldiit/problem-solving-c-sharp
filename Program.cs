@@ -160,7 +160,8 @@ using DataStructureAlgorithm.LeetCode.ArrayString;
 //ReverseVowelsOfAString.Execute();
 //ReverseWordsInString.Execute();
 //ProductOfArrayExceptSelf.Execute();
-IncreasingTripletSubsequence.Execute();
+//IncreasingTripletSubsequence.Execute();
+LeetCodeStringCompression.Execute();
 
 
 /********************Hacker Rank*********************/
