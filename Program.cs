@@ -10,6 +10,7 @@ using DataStructureAlgorithm;
 using DataStructureAlgorithm.Hackerrank;
 using DataStructureAlgorithm.LeetCode;
 using DataStructureAlgorithm.LeetCode.ArrayString;
+using DataStructureAlgorithm.LeetCode.TwoPointers;
 
 //// Fibonakki Series By Loop
 //var val1 = 0;
@@ -161,7 +162,9 @@ using DataStructureAlgorithm.LeetCode.ArrayString;
 //ReverseWordsInString.Execute();
 //ProductOfArrayExceptSelf.Execute();
 //IncreasingTripletSubsequence.Execute();
-LeetCodeStringCompression.Execute();
+//LeetCodeStringCompression.Execute();
+
+MoveZeros.Execute();
 
 
 /********************Hacker Rank*********************/
