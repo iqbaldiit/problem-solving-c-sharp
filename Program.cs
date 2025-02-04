@@ -164,7 +164,8 @@ using DataStructureAlgorithm.LeetCode.TwoPointers;
 //IncreasingTripletSubsequence.Execute();
 //LeetCodeStringCompression.Execute();
 
-MoveZeros.Execute();
+//MoveZeros.Execute();
+Subsequence.Execute();
 
 
 /********************Hacker Rank*********************/
