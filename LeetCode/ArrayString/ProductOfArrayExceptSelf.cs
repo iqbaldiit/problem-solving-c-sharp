@@ -59,7 +59,7 @@ namespace DataStructureAlgorithm.LeetCode.ArrayString
             }
 
             //Step: Calculate suffix product and multiply with prefix product
-            int nSuffixProduct = 1; // As there is no element from the right
+            int nSuffixProduct = 1; // As there is no element from the nRight
             for (int i = n - 1; i >= 0; i--)
             {
                 ans[i]*=nSuffixProduct; // multiply prefix product with suffix product

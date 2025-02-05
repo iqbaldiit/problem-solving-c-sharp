@@ -61,15 +61,15 @@ namespace DataStructureAlgorithm.LeetCode.ArrayString
             //return string.Join(' ', result);
 
             ////Approach 2: Improve memory and performance. (Using two pointer)
-            //int left = 0, right = words.Count - 1;
+            //int nLeft = 0, nRight = words.Count - 1;
 
-            //while (left < right)
+            //while (nLeft < nRight)
             //{
-            //    var temp = words[left];
-            //    words[left] = words[right];
-            //    words[right] = temp;
-            //    left++;
-            //    right--;
+            //    var temp = words[nLeft];
+            //    words[nLeft] = words[nRight];
+            //    words[nRight] = temp;
+            //    nLeft++;
+            //    nRight--;
             //}
             //return string.Join(' ', words);
 

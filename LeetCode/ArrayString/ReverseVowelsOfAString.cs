@@ -73,35 +73,35 @@ namespace DataStructureAlgorithm.LeetCode.ArrayString
         private static string ReverseVowels(string s)
         {
             char[] aryStr = s.ToCharArray();
-            int left = 0;
-            int right = aryStr.Length - 1;
+            int nLeft = 0;
+            int nRight = aryStr.Length - 1;
 
             // Set the vowel array
             char[] vowels = { 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U' };
 
             // Two-pointer approach to reverse vowels in place
-            while (left < right)
+            while (nLeft < nRight)
             {
-                // Move left pointer until a vowel is found
-                while (left < right && !vowels.Contains(aryStr[left]))
+                // Move nLeft pointer until a vowel is found
+                while (nLeft < nRight && !vowels.Contains(aryStr[nLeft]))
                 {
-                    left++;
+                    nLeft++;
                 }
 
-                // Move right pointer until a vowel is found
-                while (left < right && !vowels.Contains(aryStr[right]))
+                // Move nRight pointer until a vowel is found
+                while (nLeft < nRight && !vowels.Contains(aryStr[nRight]))
                 {
-                    right--;
+                    nRight--;
                 }
 
                 // Swap the vowels
-                if (left < right)
+                if (nLeft < nRight)
                 {
-                    char temp = aryStr[left];
-                    aryStr[left] = aryStr[right];
-                    aryStr[right] = temp;
-                    left++;
-                    right--;
+                    char temp = aryStr[nLeft];
+                    aryStr[nLeft] = aryStr[nRight];
+                    aryStr[nRight] = temp;
+                    nLeft++;
+                    nRight--;
                 }
             }
 
