@@ -11,6 +11,7 @@ using DataStructureAlgorithm.Hackerrank;
 using DataStructureAlgorithm.LeetCode;
 using DataStructureAlgorithm.LeetCode.ArrayString;
 using DataStructureAlgorithm.LeetCode.TwoPointers;
+using DataStructureAlgorithm.LeetCode.SlidingWindow;
 
 //// Fibonakki Series By Loop
 //var val1 = 0;
@@ -167,7 +168,9 @@ using DataStructureAlgorithm.LeetCode.TwoPointers;
 //MoveZeros.Execute();
 //Subsequence.Execute();
 //ContainerWithMostWater.Execute();
-MaxNumberOfKSumPairs.Execute();
+//MaxNumberOfKSumPairs.Execute();
+
+MaximumAverageSubarrayI.Execute();
 
 
 /********************Hacker Rank*********************/
@@ -177,7 +180,7 @@ MaxNumberOfKSumPairs.Execute();
 //DiagonalDifference.ExecuteSum();
 //PlusMinus.Execute();
 //Staircase.staircase(6);
-//MinMaxSum.Execute();
+//MinnMaxSum.Execute();
 
 
 
