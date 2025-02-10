@@ -171,7 +171,8 @@ using DataStructureAlgorithm.LeetCode.SlidingWindow;
 //MaxNumberOfKSumPairs.Execute();
 
 //MaximumAverageSubarrayI.Execute();
-MaxNumberOfVowels.Execute();
+//MaxNumberOfVowels.Execute();
+MaxConsecutiveOnesIII.Execute();
 
 
 /********************Hacker Rank*********************/
