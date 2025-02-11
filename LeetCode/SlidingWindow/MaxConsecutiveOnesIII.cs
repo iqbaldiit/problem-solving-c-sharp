@@ -35,33 +35,33 @@ namespace DataStructureAlgorithm.LeetCode.SlidingWindow
          */
         static int LongestOnes(int[] nums, int k)
         {
-            int nLeft = 0; // Left pointer of the window
-            int nZeroCount = 0; // Count of 0's in the current window
-            int nMaxLength = 0; // Maximum length of the window
+            int nnLeft = 0; // nLeft pointer of the window
+            int nnZeroCount = 0; // Count of 0's in the current window
+            int nnMaxLength = 0; // Maximum length of the window
 
-            for (int right = 0; right < nums.Length; right++)
+            for (int nRight = 0; nRight < nums.Length; nRight++)
             {
-                // If the current element is 0, increment zeroCount
-                if (nums[right] == 0)
+                // If the current element is 0, increment nZeroCount
+                if (nums[nRight] == 0)
                 {
-                    nZeroCount++;
+                    nnZeroCount++;
                 }
 
-                // If zeroCount exceeds k, shrink the window from the left
-                while (nZeroCount > k)
+                // If nZeroCount exceeds k, shrink the window from the nLeft
+                while (nnZeroCount > k)
                 {
-                    if (nums[nLeft] == 0)
+                    if (nums[nnLeft] == 0)
                     {
-                        nZeroCount--;
+                        nnZeroCount--;
                     }
-                    nLeft++;
+                    nnLeft++;
                 }
 
                 // Update the maximum window size
-                nMaxLength = Math.Max(nMaxLength, right - nLeft + 1);
+                nnMaxLength = Math.Max(nnMaxLength, nRight - nnLeft + 1);
             }
 
-            return nMaxLength;
+            return nnMaxLength;
         }
         public static void Execute()
         {

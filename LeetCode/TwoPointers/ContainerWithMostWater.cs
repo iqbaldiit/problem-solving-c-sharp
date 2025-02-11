@@ -44,23 +44,23 @@ namespace DataStructureAlgorithm.LeetCode.TwoPointers
     {
         static int nMaxArea(int[] height)
         {
-            int nLeft = 0;
-            int nRight = height.Length - 1;
+            int nnLeft = 0;
+            int nnRight = height.Length - 1;
             int nMaxArea = 0;
 
-            while (nLeft < nRight)
+            while (nnLeft < nnRight)
             {
-                int nWidth = nRight - nLeft;
-                int nMinHeight = Math.Min(height[nLeft], height[nRight]);
+                int nWidth = nnRight - nnLeft;
+                int nMinHeight = Math.Min(height[nnLeft], height[nnRight]);
                 nMaxArea = Math.Max(nMaxArea, nWidth * nMinHeight);
 
-                if (height[nLeft] < height[nRight])
+                if (height[nnLeft] < height[nnRight])
                 {
-                    nLeft++;
+                    nnLeft++;
                 }
                 else
                 {
-                    nRight--;
+                    nnRight--;
                 }
             }
 

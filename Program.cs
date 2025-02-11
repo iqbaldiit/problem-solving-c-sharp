@@ -172,7 +172,8 @@ using DataStructureAlgorithm.LeetCode.SlidingWindow;
 
 //MaximumAverageSubarrayI.Execute();
 //MaxNumberOfVowels.Execute();
-MaxConsecutiveOnesIII.Execute();
+//MaxConsecutiveOnesIII.Execute();
+LongestSubArrayDeletingOneElement.Execute();
 
 
 /********************Hacker Rank*********************/
