@@ -12,6 +12,7 @@ using DataStructureAlgorithm.LeetCode;
 using DataStructureAlgorithm.LeetCode.ArrayString;
 using DataStructureAlgorithm.LeetCode.TwoPointers;
 using DataStructureAlgorithm.LeetCode.SlidingWindow;
+using DataStructureAlgorithm.LeetCode.PrefixSum;
 
 //// Fibonakki Series By Loop
 //var val1 = 0;
@@ -173,7 +174,9 @@ using DataStructureAlgorithm.LeetCode.SlidingWindow;
 //MaximumAverageSubarrayI.Execute();
 //MaxNumberOfVowels.Execute();
 //MaxConsecutiveOnesIII.Execute();
-LongestSubArrayDeletingOneElement.Execute();
+//LongestSubArrayDeletingOneElement.Execute();
+
+FindTheHighestAltitude.Execute();
 
 
 /********************Hacker Rank*********************/
