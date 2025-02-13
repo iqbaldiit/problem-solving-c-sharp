@@ -176,7 +176,8 @@ using DataStructureAlgorithm.LeetCode.PrefixSum;
 //MaxConsecutiveOnesIII.Execute();
 //LongestSubArrayDeletingOneElement.Execute();
 
-FindTheHighestAltitude.Execute();
+//FindTheHighestAltitude.Execute();
+FindPivotIndex.Execute();
 
 
 /********************Hacker Rank*********************/

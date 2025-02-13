@@ -15,16 +15,16 @@ namespace DataStructureAlgorithm.Hackerrank
             List<long> longArr = arr.Select(x => (long)x).ToList();
 
             // Calculate total sum once
-            long totalSum = longArr.Sum();
+            long nTotalSum = longArr.Sum();
 
-            // Initialize min and max sum to first possible sum (totalSum - first element)
-            long minSum = totalSum - longArr[0];
+            // Initialize min and max sum to first possible sum (nTotalSum - first element)
+            long minSum = nTotalSum - longArr[0];
             long nMaxSum = minSum;
 
             // Check each possible sum by removing one number at a time
             for (int i = 1; i < longArr.Count; i++)
             {
-                long nCurrentSum = totalSum - longArr[i];
+                long nCurrentSum = nTotalSum - longArr[i];
                 minSum = Math.Min(minSum, nCurrentSum);
                 nMaxSum = Math.Max(nMaxSum, nCurrentSum);
             }
