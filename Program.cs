@@ -180,7 +180,8 @@ using DataStructureAlgorithm.LeetCode.HashMap;
 //FindTheHighestAltitude.Execute();
 //FindPivotIndex.Execute();
 
-FindDifferenceOfTwoArray.Execute();
+//FindDifferenceOfTwoArray.Execute();
+UniqueNumberOfOccurrences.Execute();
 
 
 /********************Hacker Rank*********************/
