@@ -182,7 +182,8 @@ using DataStructureAlgorithm.LeetCode.HashMap;
 
 //FindDifferenceOfTwoArray.Execute();
 //UniqueNumberOfOccurrences.Execute();
-DetermineIfTwoStringsAreClose.Execute();
+//DetermineIfTwoStringsAreClose.Execute();
+EqualRowColumnPairs.Execute();
 
 
 /********************Hacker Rank*********************/
