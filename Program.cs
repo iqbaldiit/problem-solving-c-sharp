@@ -14,6 +14,7 @@ using DataStructureAlgorithm.LeetCode.TwoPointers;
 using DataStructureAlgorithm.LeetCode.SlidingWindow;
 using DataStructureAlgorithm.LeetCode.PrefixSum;
 using DataStructureAlgorithm.LeetCode.HashMap;
+using DataStructureAlgorithm.LeetCode.Stake;
 
 //// Fibonakki Series By Loop
 //var val1 = 0;
@@ -183,7 +184,8 @@ using DataStructureAlgorithm.LeetCode.HashMap;
 //FindDifferenceOfTwoArray.Execute();
 //UniqueNumberOfOccurrences.Execute();
 //DetermineIfTwoStringsAreClose.Execute();
-EqualRowColumnPairs.Execute();
+//EqualRowColumnPairs.Execute();
+RemovingStarsFromString.Execute();
 
 
 /********************Hacker Rank*********************/
