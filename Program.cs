@@ -186,7 +186,8 @@ using DataStructureAlgorithm.LeetCode.Stake;
 //DetermineIfTwoStringsAreClose.Execute();
 //EqualRowColumnPairs.Execute();
 //RemovingStarsFromString.Execute();
-AsteroidCollision.Execute();
+//AsteroidCollision.Execute();
+DecodeString.Execute();
 
 
 /********************Hacker Rank*********************/
