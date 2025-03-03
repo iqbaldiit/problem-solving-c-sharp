@@ -15,6 +15,7 @@ using DataStructureAlgorithm.LeetCode.SlidingWindow;
 using DataStructureAlgorithm.LeetCode.PrefixSum;
 using DataStructureAlgorithm.LeetCode.HashMap;
 using DataStructureAlgorithm.LeetCode.Stake;
+using DataStructureAlgorithm.LeetCode.Queue;
 
 //// Fibonakki Series By Loop
 //var val1 = 0;
@@ -187,7 +188,13 @@ using DataStructureAlgorithm.LeetCode.Stake;
 //EqualRowColumnPairs.Execute();
 //RemovingStarsFromString.Execute();
 //AsteroidCollision.Execute();
-DecodeString.Execute();
+//DecodeString.Execute();
+
+RecentCounter recentCounter = new RecentCounter();
+Console.WriteLine(recentCounter.Ping(1));     // Output: 1
+Console.WriteLine(recentCounter.Ping(100));   // Output: 2
+Console.WriteLine(recentCounter.Ping(3001));  // Output: 3
+Console.WriteLine(recentCounter.Ping(3002));  // Output: 3
 
 
 /********************Hacker Rank*********************/
