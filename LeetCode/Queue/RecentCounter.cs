@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataStructureAlgorithm.LeetCode.Queue
 {
+    // Source: https://leetcode.com/problems/number-of-recent-calls/solutions/6488666/simple-best-solution/?envType=study-plan-v2&envId=leetcode-75
     /*
     You have a RecentCounter class which counts the number of recent requests within a 
     certain time frame.
