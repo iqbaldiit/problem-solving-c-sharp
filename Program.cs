@@ -17,6 +17,7 @@ using DataStructureAlgorithm.LeetCode.HashMap;
 using DataStructureAlgorithm.LeetCode.Stake;
 using DataStructureAlgorithm.LeetCode.Queue;
 using DataStructureAlgorithm.LinkedList;
+using DataStructureAlgorithm.LeetCode.LinkedList;
 
 //// Fibonakki Series By Loop
 //var val1 = 0;
@@ -199,7 +200,8 @@ using DataStructureAlgorithm.LinkedList;
 
 //Dota2Senate.Execute();
 
-DeleteMiddleNodeLinkedList.Execute();
+//DeleteMiddleNodeLinkedList.Execute();
+OddEvenLinkedList.Execute();
 
 
 /********************Hacker Rank*********************/
