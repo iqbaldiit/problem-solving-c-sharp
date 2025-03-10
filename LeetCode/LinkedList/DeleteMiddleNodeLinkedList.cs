@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataStructureAlgorithm.LinkedList
+namespace DataStructureAlgorithm.LeetCode.LinkedList
 {
     //Source: https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/solutions/6503624/simple-best-solution-beats-100-by-iqbald-fqru/
     /*
@@ -42,19 +42,7 @@ namespace DataStructureAlgorithm.LinkedList
         The number of nodes in the list is in the range [1, 105].
         1 <= Node.val <= 105
      */
-
-
-    //Definition for singly-linked list.
-    public class ListNode
-    {
-        public int val;
-        public ListNode next;
-        public ListNode(int val = 0, ListNode next = null)
-        {
-            this.val = val;
-            this.next = next;
-        }
-    }
+   
      
     public class DeleteMiddleNodeLinkedList
     {

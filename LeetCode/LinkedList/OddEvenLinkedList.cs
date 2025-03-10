@@ -30,16 +30,7 @@ namespace DataStructureAlgorithm.LeetCode.LinkedList
         The number of nodes in the linked list is in the range [0, 104].
         -106 <= Node.val <= 106     
      */
-    public class ListNode
-    {
-        public int val;
-        public ListNode next;
-        public ListNode(int val = 0, ListNode next = null)
-        {
-            this.val = val;
-            this.next = next;
-        }
-    }
+
     public static class OddEvenLinkedList
     {
         static ListNode OddEvenList(ListNode head)
